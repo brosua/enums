@@ -1,5 +1,5 @@
-[![Total Downloads](https://poser.pugx.org/brosua/form-search/d/total)](https://packagist.org/packages/brosua/enums)
-[![Monthly Downloads](https://poser.pugx.org/brosua/form-search/d/monthly)](https://packagist.org/packages/brosua/enums)
+[![Total Downloads](https://poser.pugx.org/brosua/enums/d/total)](https://packagist.org/packages/brosua/enums)
+[![Monthly Downloads](https://poser.pugx.org/brosua/enums/d/monthly)](https://packagist.org/packages/brosua/enums)
 
 # Enums
 
@@ -115,7 +115,7 @@ Now you can use the following functions:
 MyEnum::getTcaOptions() // => [['translation1', 1], ['translation2', 2]]
 ```
 
-### Options
+### From
 
 ```php
 use Brosua\Enums\From;

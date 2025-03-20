@@ -13,9 +13,9 @@ trait TcaOptions
         $items = [];
         foreach (self::cases() as $case) {
             if ($case instanceof \BackedEnum) {
-                $items[] = [$case->getTranslationString(), $case->name];
-            } else {
                 $items[] = [$case->getTranslationString(), $case->value];
+            } else {
+                $items[] = [$case->getTranslationString(), $case->name];
             }
         }
         return $items;

@@ -11,7 +11,11 @@ trait Options
     public static function getOptions(): \Generator
     {
         foreach (self::cases() as $case) {
-            yield $case->name => $case->getLabel();
+            if ($case instanceof \BackedEnum) {
+                yield $case->value => $case->getLabel();
+            } else {
+                yield $case->name => $case->getLabel();
+            }
         }
     }
 }

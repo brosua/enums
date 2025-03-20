@@ -1,6 +1,5 @@
-[![Latest Stable Version](https://poser.pugx.org/brosua/form-search/v/stable)](https://extensions.typo3.org/extension/form_search/)
-[![Total Downloads](https://poser.pugx.org/brosua/form-search/d/total)](https://packagist.org/packages/brosua/form-search)
-[![Monthly Downloads](https://poser.pugx.org/brosua/form-search/d/monthly)](https://packagist.org/packages/brosua/form-search)
+[![Total Downloads](https://poser.pugx.org/brosua/form-search/d/total)](https://packagist.org/packages/brosua/enums)
+[![Monthly Downloads](https://poser.pugx.org/brosua/form-search/d/monthly)](https://packagist.org/packages/brosua/enums)
 
 # Enums
 

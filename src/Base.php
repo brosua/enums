@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Brosua\Enums;
 
-trait EnumHelperTYPO3
+trait Base
 {
     use From;
     use Options;

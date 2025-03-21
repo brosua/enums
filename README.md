@@ -17,23 +17,23 @@ This package provides helpers for PHP enums. It is designed with a special focus
 
 Simply apply the needed trait on your enum.
 
-- [`EnumHelperTYPO3`](#enumhelpertypo3)
+- [`Base`](#base)
 - [`Translation`](#translation)
 - [`Options`](#options)
 - [`TcaOptions`](#tcaoptions)
 - [`From`](#from)
 
-### EnumHelperTYPO3
+### Base
 
-EnumHelperTYPO3 includes all available traits.
+Base includes all available traits.
 
 
 ```php
-use Brosua\Enums\EnumHelperTYPO3;
+use Brosua\Enums\Base;
 
 enum MyEnum: int
 {
-    use EnumHelperTYPO3;
+    use Base;
 
     case One = 1;
     case Two = 1;

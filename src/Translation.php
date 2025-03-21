@@ -10,7 +10,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 trait Translation
 {
-    public function getLabel(): string
+    public function getLabel(): mixed
     {
         $translationString = $this->getTranslationString();
         $label = self::getTranslationService()->sL($translationString);

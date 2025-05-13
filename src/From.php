@@ -15,4 +15,14 @@ trait From
         }
         return null;
     }
+
+    public static function fromValue(string|int $value): ?static
+    {
+        foreach (self::cases() as $enum) {
+            if ($enum->value === $value) {
+                return $enum;
+            }
+        }
+        return null;
+    }
 }

@@ -112,7 +112,7 @@ enum MyEnum: int
 
 Now you can use the following functions:
 ```php
-MyEnum::getTcaOptions() // => [['translation1', 1], ['translation2', 2]]
+MyEnum::getTcaOptions() // => [['label' => 'translation1', 'value' => 1], ['label' => 'translation2', 'value' => 2]]
 ```
 
 ### From
